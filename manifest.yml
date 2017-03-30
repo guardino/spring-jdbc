@@ -1,10 +1,10 @@
 ---
 applications:
-- name: jdbc-spring-music
+- name: periodic-elements-demo-spring
   path: build/libs/spring-music.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack.git#26cf03b
   memory: 512M
   services:
-      - postgresTest
+      - periodic-elements-demo-postgres
 env:
-    db_service_name: postgresTest
+    db_service_name: periodic-elements-demo-postgres

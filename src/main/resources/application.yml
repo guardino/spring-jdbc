@@ -6,10 +6,10 @@ spring:
 security:
   oauth2:
     client:
-      clientId: foo
-      clientSecret: foo
-      accessTokenUri: https://2f2bd91e-3b1b-4e16-9838-7f697b13c47e.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/access_token
-      userAuthorizationUri: https://2f2bd91e-3b1b-4e16-9838-7f697b13c47e.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/authorize
+      clientId: elements
+      clientSecret: mendeleev
+      accessTokenUri: https://7391cf8a-2d32-45f5-8884-cf36e36c3fdb.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/access_token
+      userAuthorizationUri: https://7391cf8a-2d32-45f5-8884-cf36e36c3fdb.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/authorize
     resource:
-      userInfoUri: https://2f2bd91e-3b1b-4e16-9838-7f697b13c47e.predix-uaa.run.aws-usw02-pr.ice.predix.io/userinfo
-      tokenInfoUri: https://2f2bd91e-3b1b-4e16-9838-7f697b13c47e.predix-uaa.run.aws-usw02-pr.ice.predix.io/check_token
+      userInfoUri:  https://7391cf8a-2d32-45f5-8884-cf36e36c3fdb.predix-uaa.run.aws-usw02-pr.ice.predix.io/userinfo
+      tokenInfoUri: https://7391cf8a-2d32-45f5-8884-cf36e36c3fdb.predix-uaa.run.aws-usw02-pr.ice.predix.io/check_token
